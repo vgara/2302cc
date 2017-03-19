@@ -1,0 +1,56 @@
+2017-03-13 14:37:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Min Qty
+
+FILE: catalog/controller/product/category.php
+CODE: public function index() {
+LINE: 6
+CODE: 'product_id'  => $result['product_id'],
+LINE: 220
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: public function index($setting) {
+LINE: 6
+CODE: 'product_id'  => $product_info['product_id'],
+LINE: 69
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <div class="button-group">
+LINE: 135
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <div class="button-group">
+LINE: 39
+----------------------------------------------------------------

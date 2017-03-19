@@ -1,0 +1,19 @@
+.row-margin-bottom{margin-bottom:20px;padding:7.5px 12px !important;}
+.row-margin{margin-bottom:20px;margin-left:0;}
+#coupon_form button.submit_btn{margin-left:20px !important;height:32px;line-height:10px;}
+#coupon_form .input-lg{height:34px !important;}
+#coupon_form label{height:34px;line-height:34px;}
+.price-cont{color:#444;background-color:#ddd !important;text-decoration:none;line-height:38px;font-weight:bold;text-align:center;text-transform:uppercase;}
+.img-responsive{height:100% !important;}
+.product-thumb .image{width:100% !important;height:200px !important;}
+.product-thumb .caption p {position: relative;display: block;}
+.product-thumb .min-alert {position: absolute;top: 21px;left: 0;width: 100%;background: #d7eac9;padding: 5px 10px;font-weight: bold;text-align: center;}
+#coupon_form input{outline:none !important;}
+#wrong_code,#code_ok,#wrong_cart{display:none;}
+.product-thumb .quantity-w {padding: 0 20px 20px 20px}
+.price-cont .discounts {
+    text-transform: none;
+    line-height: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
